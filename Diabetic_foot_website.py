@@ -12,7 +12,7 @@ st.title("🦶 Diabetic Foot Ulcer Diagnosis System")
 st.write("Upload an image of a foot and get instant prediction of ulcer condition.")
 
 # ------------------ MODEL LOADING ------------------
-MODEL_PATH = "dfu_inceptionv3_model.keras"
+MODEL_PATH = "dfu_inceptionv3_model.h5"
 MODEL_ID = "1OeZ3DvUxI94lxuMYrY-8zOFIJMs6usY8"  # Update with your model's Drive ID
 MODEL_URL = f"https://drive.google.com/uc?id={MODEL_ID}"
 
